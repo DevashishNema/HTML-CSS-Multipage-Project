@@ -1,0 +1,51 @@
+.productreal {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+}
+.productreal h1 {
+  font-size: 50px;
+}
+.productreal p {
+  margin-top: -20px;
+  font-size: 25px;
+}
+
+.products h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 7px;
+}
+.products .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  align-items: center;
+  padding-left: 200px;
+  row-gap: 20px;
+}
+.products .grid .pro {
+  text-align: center;
+}
+.products .grid .pro img {
+  height: 300px;
+}
+.products .grid .pro h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.products .grid .pro p {
+  font-size: large;
+}
+.products .grid .pro a button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 20px 80px 20px 80px;
+  font-weight: bolder;
+  cursor: pointer;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+.products .grid .pro i {
+  color: rgb(241, 231, 33);
+}/*# sourceMappingURL=Product.css.map */

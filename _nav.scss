@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+   position: sticky;
+   top: 0;
+
+    background-color: white;
+
+    img{
+        cursor: pointer;
+    }
+
+
+    
+
+    .ul1{
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        flex-wrap: wrap;
+        
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        
+    }
+    .ul2{
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        flex-wrap: wrap;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

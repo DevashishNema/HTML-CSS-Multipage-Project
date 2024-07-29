@@ -1,0 +1,162 @@
+.ourstory{
+    
+    img{
+        
+        width: 100%;
+        background-position: center;
+    }
+}
+
+.meet{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+    .meetmaple{
+        h2{
+            font-size: 50px;
+            color: rgb(129, 141, 124);
+        }
+
+        p{
+            font-size: 25px;
+            margin-top: -10px;
+            line-height: 40px;
+            opacity: 0.5;
+        }
+    }
+}
+
+.reuse{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(180, 187, 155);
+    align-items: center;
+    flex-wrap: wrap;
+
+    .reuseoil{
+        background-color: white;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+
+        h2{
+            color:  rgb(129, 141, 124);
+            font-size: 50px;
+        }
+
+        p{
+            font-size: 25px;
+            margin-top: -10px;
+            line-height: 40px;
+            opacity: 0.5; 
+        }
+    }
+}
+
+
+.maplefamily{
+
+    .fam{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        h2{
+            color:  rgb(129, 141, 124);
+            font-size: 50px;
+        }
+
+        p{
+            font-size: 25px;
+            margin-top: -10px;
+            line-height: 40px;
+            opacity: 0.5; 
+        }
+    }
+
+    .sign{
+        text-align: center;
+        align-items: center;
+    }
+    
+}
+
+
+.stand{
+       background-color: rgb(230, 233, 219);
+       height: 70vh;
+
+    h1{
+        color:  rgb(129, 141, 124);
+            font-size: 70px;
+            text-align: center;
+    }
+
+    .people{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        img{
+            border: 1px solid rgb(180, 183, 166);
+            height: 50vh;
+        }
+
+        .realpeople{
+            text-align: left;
+            h2{
+                color:  rgb(129, 141, 124);
+                font-size: 50px;
+            }
+    
+            p{
+                font-size: 25px;
+                margin-top: -10px;
+                line-height: 30px;
+                opacity: 0.5; 
+            }
+        }
+    }
+}
+
+
+.realsolution{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .solution{
+        h2{
+            color:  rgb(129, 141, 124);
+            font-size: 50px;
+        }
+
+        p{
+            font-size: 25px;
+            margin-top: -10px;
+            line-height: 30px;
+            opacity: 0.5; 
+        }
+    }
+}
+
+
+
+
+.following{
+    display: flex;
+            justify-content: center;
+    a{
+        button{
+            text-align: center;
+            padding: 20px 50px 20px 50px;
+            margin-top: 30px;
+            background-color: orangered;
+            border: 1px solid orangered;
+            cursor: pointer;
+            
+        }
+    }
+}

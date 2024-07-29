@@ -1,0 +1,456 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  transform: all ease;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  background-color: black;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: small;
+  word-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header .header1 {
+  font-weight: 100;
+  border-right: 1px solid white;
+  padding-right: 10px;
+}
+header .header2 {
+  padding-left: 10px;
+  border-left: 1px solid white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.navbar img {
+  cursor: pointer;
+}
+.navbar .ul1 {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.navbar .ul1 a {
+  text-decoration: none;
+  color: black;
+}
+.navbar .ul2 {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.navbar .ul2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.imghome {
+  margin-top: 30px;
+  background-image: url(/homepage.png);
+  height: 100vh;
+  padding: 50px 200px 100px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  flex-wrap: wrap;
+}
+.imghome button {
+  padding: 10px 70px 10px 70px;
+  background-color: rgba(169, 26, 4, 0.795);
+  border: 1px rgba(169, 26, 4, 0.795);
+}
+.imghome button a {
+  text-decoration: none;
+  color: white;
+}
+
+.ingre {
+  flex-wrap: wrap;
+}
+.ingre .ingredients {
+  text-align: center;
+  font-size: x-large;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  flex-wrap: wrap;
+}
+.ingre .shop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+.ingre .shop button {
+  padding: 20px 80px 20px 80px;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid brown;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+.ingre .shop button a {
+  text-decoration: none;
+  color: black;
+}
+.ingre .shop button a :hover {
+  background-color: brown;
+  color: white;
+}
+.ingre .shop button :hover {
+  background-color: brown;
+  color: white;
+}
+
+.essential {
+  text-align: center;
+  padding: 50px 15px 50px 15px;
+}
+.essential h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+}
+.essential p {
+  margin-top: -20px;
+  font-size: x-large;
+}
+.essential .explore {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.essential .explore .essoil {
+  height: 300px;
+}
+.essential .explore .essoil i {
+  color: rgb(241, 231, 33);
+  font-size: large;
+}
+.essential .explore .essoil button {
+  background-color: brown;
+  color: white;
+  border: brown;
+  padding: 20px 80px 20px 80px;
+  font-size: large;
+  cursor: pointer;
+}
+.essential .explore .essoil button :hover {
+  background-color: white;
+  border: 1px solid brown;
+  color: black;
+  font-weight: bolder;
+}
+
+.educat h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.educat p {
+  font-size: larger;
+  text-align: center;
+}
+.educat .AAC {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.educat .AAC p {
+  text-align: left;
+  text-decoration: underline;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+}
+.educat .AAC p :hover {
+  text-decoration: none;
+}
+
+.followus {
+  text-align: center;
+  padding-top: 30px;
+  font-size: larger;
+}
+.followus .followimg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.followus img {
+  cursor: pointer;
+}
+.followus button {
+  background-color: brown;
+  color: white;
+  border: 1px solid brown;
+  padding: 20px 60px 20px 60px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  cursor: pointer;
+}
+.followus button :hover {
+  background-color: white;
+  color: black;
+  border: 1px solid brown;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(73, 71, 71);
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  flex-wrap: wrap;
+}
+footer .div1 {
+  border-right: 2px solid white;
+  align-items: center;
+  padding-right: 50px;
+}
+footer .div1 .osc {
+  display: flex;
+  justify-content: space-around;
+}
+footer .div1 .osc ul li {
+  list-style: none;
+}
+footer .div1 .osc ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .div2 {
+  align-items: center;
+  padding-left: 50px;
+}
+footer .div2 input {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 200px;
+}
+footer .div2 button {
+  padding: 15px 20px 15px 20px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer .div2 .social {
+  word-spacing: 20px;
+}
+footer .div2 .social i {
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.productreal {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+}
+.productreal h1 {
+  font-size: 50px;
+}
+.productreal p {
+  margin-top: -20px;
+  font-size: 25px;
+}
+
+.products h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 7px;
+}
+.products .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  align-items: center;
+  padding-left: 200px;
+  row-gap: 20px;
+}
+.products .grid .pro {
+  text-align: center;
+}
+.products .grid .pro img {
+  height: 300px;
+}
+.products .grid .pro h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.products .grid .pro p {
+  font-size: large;
+}
+.products .grid .pro a button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 20px 80px 20px 80px;
+  font-weight: bolder;
+  cursor: pointer;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+.products .grid .pro i {
+  color: rgb(241, 231, 33);
+}
+
+.ourstory img {
+  width: 100%;
+  background-position: center;
+}
+
+.meet {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.meet .meetmaple h2 {
+  font-size: 50px;
+  color: rgb(129, 141, 124);
+}
+.meet .meetmaple p {
+  font-size: 25px;
+  margin-top: -10px;
+  line-height: 40px;
+  opacity: 0.5;
+}
+
+.reuse {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(180, 187, 155);
+  align-items: center;
+  flex-wrap: wrap;
+}
+.reuse .reuseoil {
+  background-color: white;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.reuse .reuseoil h2 {
+  color: rgb(129, 141, 124);
+  font-size: 50px;
+}
+.reuse .reuseoil p {
+  font-size: 25px;
+  margin-top: -10px;
+  line-height: 40px;
+  opacity: 0.5;
+}
+
+.maplefamily .fam {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.maplefamily .fam h2 {
+  color: rgb(129, 141, 124);
+  font-size: 50px;
+}
+.maplefamily .fam p {
+  font-size: 25px;
+  margin-top: -10px;
+  line-height: 40px;
+  opacity: 0.5;
+}
+.maplefamily .sign {
+  text-align: center;
+  align-items: center;
+}
+
+.stand {
+  background-color: rgb(230, 233, 219);
+  height: 70vh;
+}
+.stand h1 {
+  color: rgb(129, 141, 124);
+  font-size: 70px;
+  text-align: center;
+}
+.stand .people {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.stand .people img {
+  border: 1px solid rgb(180, 183, 166);
+  height: 50vh;
+}
+.stand .people .realpeople {
+  text-align: left;
+}
+.stand .people .realpeople h2 {
+  color: rgb(129, 141, 124);
+  font-size: 50px;
+}
+.stand .people .realpeople p {
+  font-size: 25px;
+  margin-top: -10px;
+  line-height: 30px;
+  opacity: 0.5;
+}
+
+.realsolution {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.realsolution .solution h2 {
+  color: rgb(129, 141, 124);
+  font-size: 50px;
+}
+.realsolution .solution p {
+  font-size: 25px;
+  margin-top: -10px;
+  line-height: 30px;
+  opacity: 0.5;
+}
+
+.following {
+  display: flex;
+  justify-content: center;
+}
+.following a button {
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  margin-top: 30px;
+  background-color: orangered;
+  border: 1px solid orangered;
+  cursor: pointer;
+}/*# sourceMappingURL=M.css.map */

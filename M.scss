@@ -1,0 +1,226 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    transform: all ease;
+    flex-wrap: wrap
+}
+@import "header";
+
+
+@import "nav";
+
+.imghome{
+    margin-top: 30px;
+    background-image: url(/homepage.png);
+    height: 100vh;
+    padding: 50px 200px 100px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-wrap: wrap;
+    
+   button{
+    padding: 10px 70px 10px 70px ;
+    background-color: rgba(169, 26, 4, 0.795);
+    border: 1px rgba(169, 26, 4, 0.795);
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+   }
+
+    
+}
+
+
+.ingre{
+
+    flex-wrap: wrap;
+    .ingredients{
+        text-align: center;
+        font-size: x-large;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        flex-wrap: wrap;
+
+    }
+    
+    
+    .shop{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+        
+    
+        
+        button{
+                padding: 20px 80px 20px 80px;
+                margin-top: 10px;
+                background-color: white;
+                border: 1px solid brown;
+                font-weight: bold;
+                font-size: large;
+                cursor: pointer;
+                
+               a{
+                text-decoration: none;
+                color: black;
+                :hover{
+                    background-color: brown;
+                     color: white;
+                }
+               }
+    
+                :hover{
+                     background-color: brown;
+                     color: white;
+                }
+            }
+        
+    }
+}
+
+
+.essential{
+             text-align: center;
+             padding: 50px 15px 50px 15px;
+             h1{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bolder;
+             }
+             p{
+                margin-top: -20px;
+                font-size: x-large;
+             }
+   
+    .explore{
+              display: flex;
+              justify-content: space-around;
+              flex-wrap: wrap;
+       
+
+    .essoil{
+
+        height: 300px;
+        i{
+           color: rgb(241, 231, 33);
+           font-size: large; 
+        }
+        button{
+            background-color: brown;
+            color: white;
+            border: brown;
+            padding: 20px 80px 20px 80px;
+            font-size: large;
+            cursor: pointer;
+            :hover{
+                background-color: white;
+                border: 1px solid brown;
+                color: black;
+                font-weight: bolder;
+            }
+        }
+    }    
+
+       
+    }
+}
+
+
+.educat{
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }     
+    p{
+        font-size: larger;
+        text-align: center;
+    }
+
+
+
+    .AAC{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        p{
+            text-align: left;
+            text-decoration: underline;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            cursor: pointer;
+            :hover{
+                text-decoration: none;
+                
+            }
+        }
+
+        
+    }
+}
+
+
+
+
+
+.followus{
+    text-align: center;
+    padding-top: 30px;
+    font-size: larger;
+
+
+    .followimg{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    img{
+        
+        cursor: pointer;
+    }
+
+    button{
+        background-color: brown;
+        color: white;
+        border: 1px solid brown;
+        padding: 20px 60px 20px 60px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 5px;
+        word-spacing: 5px;
+        cursor: pointer;
+        :hover{
+            background-color: white;
+            color: black;
+            border: 1px solid brown;
+                }
+    }
+}
+
+
+@import "footer";
+
+
+@import "product";
+
+
+@import "About";
+
+@import "checkout";
+
+

@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: small;
+    word-spacing: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+    .header1{
+        font-weight: 100;
+        border-right: 1px solid white;
+        padding-right: 10px;
+    }
+    .header2{
+        padding-left: 10px;
+        border-left: 1px solid white;
+    }
+    
+}
